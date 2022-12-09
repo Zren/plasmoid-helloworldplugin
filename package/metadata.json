@@ -1,0 +1,22 @@
+{
+	"KPlugin": {
+		"Id": "com.github.zren.widgetname",
+		"Name": "widgetname",
+		"Description": "What your app does in a few words",
+		"Version": "1.0",
+		"Icon": "applications-system",
+		"Authors": [
+			{
+				"Name": "Chris Holland",
+				"Email": "zrenfire@gmail.com"
+			}
+		],
+		"License": "LGPL-2.1+",
+		"Website": "https://github.com/Zren/plasmoid-helloworldplugin",
+		"ServiceTypes": [
+			"Plasma/Applet"
+		]
+	},
+	"X-Plasma-API": "declarativeappletscript",
+	"X-Plasma-MainScript": "ui/main.qml"
+}
